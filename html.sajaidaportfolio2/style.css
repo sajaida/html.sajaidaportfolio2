@@ -1,0 +1,202 @@
+/* Class: intro */
+
+
+.About-me{
+    text-align:center;
+    margin: 10px;
+    font-size: x-large;   
+   }
+   
+
+
+.text{
+    text-align:center;
+    font-size: 20px;
+    font-family: 'Lora', serif, 'Merriweather', serif;
+   
+   
+    width: 100%;
+} 
+
+
+
+.intro {
+    width: 30%;
+    margin: auto;
+}
+
+
+/* Element: p */
+
+p {
+    display: block;
+    line-height: 2;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+
+/* Element: body */
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Lora', serif, 'Merriweather', serif;
+   
+}    
+
+h2{
+    color: #66bfbf;
+    font-family: "Montserrat", sans-serif;
+    font-size: 2rem;
+    font-weight: normal;
+    padding-bottom: 10px;
+}
+
+.pro {
+    text-decoration: underline;
+    color:#6528F7;
+}
+
+
+/* Class: element-squared */
+
+.element-squared {
+    border: 10px solid transparent;
+    border-radius: 14px;
+}
+
+
+/* Class: element-rounded */
+
+.element-rounded {
+    border: 10px solid transparent;
+    border-radius: 50px;
+}
+
+
+/* Class: element-circle */
+
+.element-circle {
+    border: 10px solid transparent;
+    border-radius: 50%;
+}
+
+
+/* Dark mode style */
+@media (prefers-color-scheme: dark)  {
+
+    /* Element: body */
+    body {
+       
+        color: white;
+        background-color: black;
+    }
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    p {
+        --bs-emphasis-color: #fff;
+        color: #fff;
+      
+}}
+
+
+/* Media query for mobile devices */
+
+@media (max-width: 480px) {
+    body {
+        
+    }
+}
+ 
+
+
+.github{
+    padding-top: 52px;
+    padding-right:10px;
+    padding-left:60px;
+    margin-bottom: 65px;
+}
+
+.linkedin{
+    padding-top: 44px;  
+    margin-right:  0px;
+    padding-right: 0px;
+    
+   
+
+}
+
+
+
+
+
+.skills{
+    text-align: center;
+    margin-top: 60px;
+    font-size: 40px;
+    border: 1px solid grey;
+    border-radius: 100px;
+    padding-right: 70px;
+    
+    
+  
+}
+
+.ill{
+   text-decoration:underline;
+   color: #6528F7;
+   font-family:'Tektur', cursive;;
+   font-size: 50px;
+} 
+
+
+
+li{
+    list-style: none;
+}
+
+
+.tech{
+    font-size: x-large;
+    font-family: 'Ysabeau SC', sans-serif;
+    display: flex;
+    border: 3px solid transparent;
+    margin-left: 80px;   padding:40px;
+    width:75%
+    
+}
+
+.dop1{ 
+
+    padding: 60px;
+    margin-left: 150px;
+    margin-bottom: 210px;
+    border: 2px solid transparent;
+    float: left;
+   
+}
+   
+.dop2{
+   
+    padding: 50px;
+    margin-left: 160px;
+    margin-bottom: 200px;
+    border: 2px solid transparent;
+    float: right;
+
+}
+
+
+
+     
+
+
+       
+        

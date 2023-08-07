@@ -1,0 +1,228 @@
+/* Class: intro */
+
+
+
+
+
+
+.resume2{
+  
+   border-radius: 50px  ;
+   margin-top: 10px;
+   margin-right: 20px;
+   padding: 20 10px;
+   color-scheme:dark;
+   border: 2px solid #9336B4;
+
+    }
+ 
+ 
+     
+
+      
+    
+
+      
+  
+    .box {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+    
+
+.About-me2 {
+    text-align: center;
+    margin: 10px;
+    font-size: 18px;
+     border-radius: 40px;
+    border: 2px solid #9336B4;
+    
+}
+
+  
+
+
+
+.About-me{
+    text-align: center;
+
+}
+
+
+
+.text {
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Lora', serif, 'Merriweather', serif;
+    width: 100%;
+}
+
+
+.intro {
+    width: 30%;
+    margin: auto;
+}
+
+
+/* Element: p */
+
+p {
+    display: block;
+    line-height: 2;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+
+/* Element: body */
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Lora', serif, 'Merriweather', serif;
+   
+
+}
+
+h2 {
+    color: #66bfbf;
+    font-family: "Montserrat", sans-serif;
+    font-size: 2rem;
+    font-weight: normal;
+    padding-bottom: 10px;
+}
+
+.pro {
+    text-decoration: underline;
+    
+}
+
+
+/* Class: element-squared */
+
+
+.element-squared {
+    border: 10px solid transparent;
+    border-radius: 14px;
+}
+
+
+/* Class: element-rounded */
+
+.element-rounded {
+    border: 10px solid transparent;
+    border-radius: 50px;
+}
+
+
+/* Class: element-circle */
+
+.element-circle {
+    border: 10px solid transparent;
+    border-radius: 50%;
+}
+
+
+/* Dark mode style */
+@media (prefers-color-scheme:dark) 
+ { 
+
+    /* Element: body */
+    body {
+      
+        color: white;
+        background-color:black;
+       
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    p {
+        --bs-emphasis-color: #fff;
+        color: #fff;
+
+    }
+
+}
+
+
+/* Media query for mobile devices */
+@media (max-width:320px){}
+   
+   
+
+
+
+
+
+
+.About-me{
+    text-align: center;
+
+}
+
+
+.skills {
+    text-align: center;
+    margin-top: 60px;
+    font-size: 40px;
+    border: 1px solid grey;
+    border-radius: 100px;
+    padding: 0px 70px;
+}
+
+
+
+li {
+    list-style: none;
+}
+
+.tech {
+    font-size: x-large;
+    font-family: 'Ysabeau SC', sans-serif;
+    border: 3px solid transparent;
+    display: flex;
+    flex-grow: 1;
+    flex-direction: row;
+    /* 
+    flex-wrap: wrap
+    Show flex on a new line if the screen is to small
+
+    flex-wrap: nowrap
+    Show flex next to eachother. (resize)
+    */
+    flex-wrap: nowrap;
+}
+
+.tech>div {
+    /* Center div */
+    margin: auto;
+    /* A nive padding of 50px; */
+    padding: 50px;
+}
+
+.dop1 {
+    border: 2px solid transparent;
+    float: left;
+}
+
+.dop2 {
+    border: 2px solid transparent;
+    float: right;
+}
+
+a>svg {
+    fill: grey;
+}
+
+a:hover>svg {
+    /* Fun color while hovering an svg icon */
+    fill: #6528F7;}
